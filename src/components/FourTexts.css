@@ -1,0 +1,78 @@
+.textsContainer {
+    flex: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.textStyle1 {
+    margin-top: 2vh;
+    color: #595566;
+    text-align: center;
+    font-family: Zen Antique Soft, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.textStyle2 {
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Zen Antique Soft, serif;
+    font-weight: 400;
+}
+
+.textStyle3 {
+    font-size: 1rem;
+    color: #000;
+    text-align: center;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: Zen Antique Soft, serif;
+    font-weight: 400;
+    margin-top: 2vh;
+}
+
+.textStyle4 {
+    color: #595566;
+    text-align: center;
+    font-family: Zen Antique Soft, serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+@media (min-width: 650px) {
+    .textStyle1 {
+        margin-top: 20%;
+        font-size: 2.5rem;
+    }
+    .textStyle2 {
+        font-size: 1.5rem;
+    }
+    .textStyle3 {
+        margin-top: 10%;
+        font-size: 1.5rem;
+    }
+    .textStyle4 {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .textStyle1 {
+        margin-top: 20%;
+        font-size: 3.5rem;
+    }
+    .textStyle2 {
+        font-size: 2.5rem;
+    }
+    .textStyle3 {
+        margin-top: 10%;
+        font-size: 2.5rem;
+    }
+    .textStyle4 {
+        font-size: 1.5rem;
+    }
+}
+

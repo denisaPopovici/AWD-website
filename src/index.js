@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Home from "./components/Home";
+import Header from "./components/Header";
+import {Route, Routes} from "react-router-dom";
+import SubjectsPage from "./components/SubjectsPage";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <Header>
+            <Routes>
+                <Route exact path="/" element={<Home />} index />
+                <Route path="/teaching" element={<SubjectsPage />} />
+            </Routes>
+      </Header>
   </React.StrictMode>
 );
 

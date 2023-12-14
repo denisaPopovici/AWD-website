@@ -1,0 +1,18 @@
+.subjects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-text {
+    font-family: Zen Antique Soft, serif;
+    color: #665558;
+    font-size: 30px;
+}
+
+.subjects-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

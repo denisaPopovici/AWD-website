@@ -1,0 +1,71 @@
+.mainImageContainer {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.imageContainer {
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background: rgba(9, 69, 26, 0.3);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: center;
+    margin-top: 2vh;
+    width: 60%;
+}
+
+.profileImage {
+    width: 90%;
+    height: auto;
+    margin-left: 2.5vh;
+    margin-right: 2.5vh;
+    margin-top: 2vh;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.nameText {
+    color: #09451A;
+    font-family: Zen Antique Soft, serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2vh;
+    text-align: center;
+    display: inline;
+}
+
+@media (min-width: 500px) {
+    .imageContainer {
+        width: 50%;
+    }
+}
+
+@media (min-width: 650px) {
+    .mainImageContainer {
+        justify-content: left;
+        align-items: flex-start;
+        width: 40%;
+    }
+    .imageContainer {
+        width: 80%;
+        margin: 2vh 3vh 0;
+        max-width: 100%;
+    }
+    .nameText {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .mainImageContainer {
+        display: inline;
+    }
+    .imageContainer {
+        width: 70%;
+    }
+}

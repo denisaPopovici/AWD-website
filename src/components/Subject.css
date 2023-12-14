@@ -1,0 +1,21 @@
+.subject-box {
+    border: 1px solid #000;
+    padding: 16px;
+    margin: 16px;
+    text-align: left;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: Zen Antique Soft, serif;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.subject-title {
+    color: #665558;
+}
+
+@media (min-width: 768px) {
+    .subject-box {
+        width: 30%;
+        margin: 16px 2%;
+    }
+}
