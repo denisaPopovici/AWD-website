@@ -20,7 +20,7 @@ const Header = ({ children }) => {
 
     return (
         <BrowserRouter basename="/AWD-website">
-            <div className="headerStyle">
+            <div className="headerStyle" role="banner">
                 <div>
                     <img src={ubb} alt="Logo" className="logoStyle" />
                 </div>
@@ -41,7 +41,7 @@ const Header = ({ children }) => {
                     <SelectHeaderMenu/>
                 }
             </div>
-            <main>{children}</main>
+            <main role="main">{children}</main>
         </BrowserRouter>
     );
 };

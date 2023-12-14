@@ -11,7 +11,7 @@ const ImageComponent = () => {
                     className="profileImage"
                     alt={"profileImage"}/>
                 <div className="nameText">
-                    POPOVICI DENISA-MARIA
+                    <h4> POPOVICI DENISA-MARIA </h4>
                 </div>
             </div>
         </div>
