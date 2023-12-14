@@ -18,7 +18,7 @@ const Header = ({ children }) => {
     }, []);
 
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/AWD-website">
             <div className="headerStyle">
                 <div>
                     <img src={ubb} alt="Logo" className="logoStyle" />
