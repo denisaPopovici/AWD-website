@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import {ubb} from "../assets/Images";
 import './Header.css'
 import {BrowserRouter, Link} from "react-router-dom";
+import SelectHeaderMenu from "./SelectHeaderMenu";
 const Header = ({ children }) => {
     const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
@@ -37,13 +38,7 @@ const Header = ({ children }) => {
                             <li className="liStyle">TIMETABLE</li>
                         </ul>
                     </div> :
-                    <select className="selectStyle">
-                        <option>HOME</option>
-                        <option>ABOUT ME</option>
-                        <option>TEACHING</option>
-                        <option>CONTACT</option>
-                        <option>TIMETABLE</option>
-                    </select>
+                    <SelectHeaderMenu/>
                 }
             </div>
             <main>{children}</main>
