@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/AWD-website/static/css/main.638a6a9b.css",
-    "main.js": "/AWD-website/static/js/main.784a65d0.js",
+    "main.css": "/AWD-website/static/css/main.aef27767.css",
+    "main.js": "/AWD-website/static/js/main.33dc8025.js",
     "static/js/787.e392be71.chunk.js": "/AWD-website/static/js/787.e392be71.chunk.js",
     "static/media/babes-bolyai-university.png": "/AWD-website/static/media/babes-bolyai-university.f3adf6743064f63eaaff.png",
     "static/media/profile.jpeg": "/AWD-website/static/media/profile.9086a804c41b822a1695.jpeg",
     "index.html": "/AWD-website/index.html",
-    "main.638a6a9b.css.map": "/AWD-website/static/css/main.638a6a9b.css.map",
-    "main.784a65d0.js.map": "/AWD-website/static/js/main.784a65d0.js.map",
+    "main.aef27767.css.map": "/AWD-website/static/css/main.aef27767.css.map",
+    "main.33dc8025.js.map": "/AWD-website/static/js/main.33dc8025.js.map",
     "787.e392be71.chunk.js.map": "/AWD-website/static/js/787.e392be71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.638a6a9b.css",
-    "static/js/main.784a65d0.js"
+    "static/css/main.aef27767.css",
+    "static/js/main.33dc8025.js"
   ]
 }
