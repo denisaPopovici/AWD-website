@@ -30,11 +30,15 @@ const Header = ({ children }) => {
                             <li className="liStyle">
                                 <Link to="/">HOME</Link>
                             </li>
-                            <li className="liStyle">ABOUT ME</li>
+                            <li className="liStyle">
+                                <Link to="/about-me">ABOUT ME</Link>
+                            </li>
                             <li className="liStyle">
                                 <Link to="/teaching">TEACHING</Link>
                             </li>
-                            <li className="liStyle">CONTACT</li>
+                            <li className="liStyle">
+                                <Link to="/contact">CONTACT</Link>
+                            </li>
                             <li className="liStyle">TIMETABLE</li>
                         </ul>
                     </div> :

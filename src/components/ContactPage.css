@@ -1,0 +1,52 @@
+.contact-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px;
+    width: 90%;
+    font-family: Zen Antique Soft, serif;
+    font-size: 20px;
+    border: 1px solid darkgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+input,
+textarea {
+    margin-bottom: 16px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 12px;
+    background-color: #595566;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Zen Antique Soft, serif;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: #aaa0ce;
+}
+
+.contact-ul {
+    border: 1px solid darkgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-li {
+    padding: 5px;
+}

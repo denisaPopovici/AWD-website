@@ -7,7 +7,7 @@ const SelectHeaderMenu = () => {
 
     const handleOptionClick = (event) => {
         let selectedValue = event.target.value.toString().toLowerCase();
-        let undefinedValues = ['home', 'about me', 'contact', 'timetable']
+        let undefinedValues = ['timetable', 'home']
         if (undefinedValues.includes(selectedValue)) {
             selectedValue = '';
         }
@@ -17,7 +17,7 @@ const SelectHeaderMenu = () => {
     return (
         <select className="selectStyle" onChange={handleOptionClick}>
             <option>HOME</option>
-            <option>ABOUT ME</option>
+            <option>ABOUT-ME</option>
             <option>TEACHING</option>
             <option>CONTACT</option>
             <option>TIMETABLE</option>

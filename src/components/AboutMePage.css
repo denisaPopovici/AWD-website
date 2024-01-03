@@ -1,0 +1,54 @@
+.about-container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    font-family: Zen Antique Soft, serif;
+    font-size: 20px;
+    border: 1px solid darkgray;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.profile-section {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 15vh;
+}
+
+.profile-details {
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.bio-section {
+    margin-top: 20px;
+}
+
+h3 {
+    color: #595566;
+}
+
+p {
+    line-height: 1.6;
+}
+
+@media screen and (max-width: 600px) {
+    .profile-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .profile-picture {
+        width: 20vh;
+        margin-bottom: 10px;
+    }
+}
