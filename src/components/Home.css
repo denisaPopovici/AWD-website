@@ -5,6 +5,10 @@
     height: 100%;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 @media (min-width: 650px) {
     .homeContainer {
         flex-direction: row;
